@@ -15,7 +15,6 @@ slt.title("IRRIS CALSSIFY")
 slt.header('sepal length (cm)')
 
 a = slt.text_input("Enter number ")
-
 a = int(a)
 
 slt.header('sepal width (cm)')
