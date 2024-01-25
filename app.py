@@ -18,12 +18,4 @@ a = slt.text_input("Enter number ")
 
 slt.header('sepal width (cm)')
 
-b = slt.text_input("Enter number ")
-
-slt.header('petal length (cm)')
-
-c = slt.text_input("Enter number ")
-
-slt.header('petal width (cm)')
-
-d = slt.text_input("Enter number ")
+b = slt.text_input("Enter num")
