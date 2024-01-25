@@ -19,3 +19,20 @@ a = slt.text_input("Enter number ")
 slt.header('sepal width (cm)')
 
 b = slt.text_input("Enter num")
+
+slt.header('petal length (cm)')
+
+c = slt.text_input("Enter num")
+
+slt.header('petal width (cm)')
+
+d = slt.text_input("Enter num")
+
+if slt.button("predict"):
+    result =model.predict([[a,b,c,d]])
+    if result == 0:
+        slt.header('setosa')
+    elif result == 1:
+        slt.header('versicolor')
+    else:
+        slt.header('virginica')
