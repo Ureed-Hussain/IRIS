@@ -14,16 +14,16 @@ slt.title("IRRIS CALSSIFY")
 # slt.header(model.score(X_test, y_test))
 slt.header('sepal length (cm)')
 
-slt.text_input("Enter number ")
+a = slt.text_input("Enter number ")
 
 slt.header('sepal width (cm)')
 
-slt.text_input("Enter number ")
+b = slt.text_input("Enter number ")
 
 slt.header('petal length (cm)')
 
-slt.text_input("Enter number ")
+c = slt.text_input("Enter number ")
 
 slt.header('petal width (cm)')
 
-slt.text_input("Enter number ")
+d = slt.text_input("Enter number ")
