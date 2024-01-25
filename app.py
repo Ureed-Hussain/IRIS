@@ -30,7 +30,7 @@ d = slt.text_input("Enter Num")
 
 
 if slt.button("predict"):
-    result =model.predict([[1,2,3,4]])
+    result =model.predict([[a,b,c,d]])
 
     if result == ["0"]:
         slt.header('setosa')
