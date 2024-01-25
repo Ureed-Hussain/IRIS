@@ -31,10 +31,10 @@ d = slt.text_input("Enter Num")
 
 if slt.button("predict"):
     result =model.predict([[a,b,c,d]])
-    result = int(result)
-    if result == 0:
+
+    if result == [0]:
         slt.header('setosa')
-    elif result == 1:
+    elif result == [1]:
         slt.header('versicolor')
     else:
         slt.header('virginica')
